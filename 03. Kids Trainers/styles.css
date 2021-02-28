@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.header-green {
+    background: #41BEAD;
+    box-shadow: 0 2px 8px -1px rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+.header-navigation {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation > nav > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navigation > nav > ul > li {
+    color: #ffffff;
+    padding: 20px;
+    font-weight: 600;
+    /*font-size: 14px;*/
+    font-size: 1.5em;
+}
+
+.header-navigation-logo-wrapper img {
+    width: 100px;
+    height: 60px;
+}
+
+.header-orange {
+    background: #FFAC3E;
+}
+
+.header-description {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header-description > h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.header-description > p {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.big-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.info {
+    display: flex;
+}
+
+.info-image-wrapper {
+    /*max-width: 170px;*/
+    /*max-height: 170px;*/
+}
+
+.info-image-wrapper img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: 5px solid #41BEAD;
+    vertical-align: middle;
+}
+
+.info-content {
+    padding: 0 30px;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.info-content-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #41BEAD;
+}
+
+.info-content-subtitle {
+    font-size: 12px;
+    color: #C1B6B9;
+    padding-top: 10px;
+}
+
+.info-content-description {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.small-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.info.small {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.small > .info-image-wrapper {
+    padding-bottom: 20px;
+}
+
+.join-us {
+    background: #66B9F8;
+    color: #ffffff;
+    border-top: 5px solid #92CDFB;
+    padding-bottom: 80px;
+}
+
+.join-us-content {
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.join-us-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 0 20px 0;
+}
+
+.join-us-text {
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+#name,
+#email,
+#tel {
+    background: transparent;
+    border: 1px solid #ffffff;
+    outline: unset;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#name::placeholder,
+#email::placeholder,
+#tel::placeholder {
+    color: #ffffff;
+}
+
+.join-us-content > form > input[type=submit] {
+    background: #FFAC3E;
+    color: #ffffff;
+    border: unset;
+    border-radius: 16px;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 30px;
+    box-shadow: 3px 5px 11px -2px #000000;
+}
+
+.join-us-content > form > input[type=submit]:hover {
+    cursor: pointer;
+}
+
+footer {
+    background: #565656;
+    border-top: 5px solid #919191;
+}
+
+.footer-navigation {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #ffffff;
+}
+
+.footer-nav > h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-nav > ul {
+    padding-top: 16px;
+}
+
+.footer-nav > ul > li {
+    font-size: 12px;
+    padding-bottom: 6px;
+}
+
+.footer-nav:last-child > ul {
+    display: flex;
+}
+
+.fab {
+    font-size: 20px;
+}
+
+.fa-instagram {
+    padding-left: 10px;
+}
